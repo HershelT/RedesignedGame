@@ -28,9 +28,13 @@ To use the Python Terminal API, follow these steps:
 Run game using `python game.py`
 
 Move around using 'w', 'a', 's', 'd' keys
-Push aroudn blocks by running into them if they are pushable
+Push around blocks by running into them if they are pushable.
+
 Push tnt blocks near the ores and press 'b' to blow them up
-Collect ores by running into them
+
+Collect ores by running into them.
+
+
 
 
 ## Contributing
