@@ -24,24 +24,32 @@ To use the Python Terminal API, follow these steps:
 1. Clone the repository: `git clone https://github.com/hershelt/RedesignedGame.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 
+
+## GOAL
+A strategy based game to collect the loot.
+The goal of the game is to collect all the ores in the level and reach the exit. You can break blocks with a pickaxe and push blocks around to help you reach the ores. You can also use tnt to blow up blocks and collect ores. Be careful not to end the game by running out of hearts. You can collect diamonds to get a health potion to use.
+
 ## Usage
 Run game using `python game.py`
 
 Move around using 'w', 'a', 's', 'd' keys
+
+Break blocks with pickaxe using the 'e' key
 Push around blocks by running into them if they are pushable.
 
 Push tnt blocks near the ores and press 'b' to blow them up
 
 Collect ores by running into them.
 
+Press 'z' and 'c' to move between levels and press 'm' to reset the level.
 
+NOTE: everytime you use your flint and steel, you will lose 1 heart.
+
+Collect 3 diamonds and press 'q' to get a health potion to use.
+
+Press 'v' to use the health potion. This will give you 1 heart and allow you to continue playing.
 
 
 ## Contributing
 Contributions to the Python Terminal API are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For any questions or inquiries, please contact the project maintainer at [email@example.com](mailto:email@example.com).
